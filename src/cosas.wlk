@@ -44,8 +44,8 @@ object contenedor_Portuario {
 	var max_peligro = null
 	method contener(objeto) {
 		objeto_contenido.add(objeto)
-		sumatotal=objeto_contenido.peso()
-		max_peligro=objeto_contenido.nivelPeligrosidad()
+		//sumatotal=objeto_contenido.peso()
+		//max_peligro=objeto_contenido.nivelPeligrosidad()
 	}
 	method peso() { return 100+sumatotal }
 	method nivelPeligrosidad() { return max_peligro}
